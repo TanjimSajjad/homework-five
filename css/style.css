@@ -1,0 +1,718 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.board{
+height: 504px;
+width: 504px;
+position: relative;
+margin-top: 150px;
+margin-left: 700px;
+background-color: white;
+}
+.rock{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+}
+.one{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 63px;
+}
+.two{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 126px;
+}
+.three{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 189px;
+}
+.four{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 252px;
+}
+.five{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 315px;
+}
+.six{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 378px;
+}
+.seven{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 441px;
+}
+.a{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-left: 63px;
+}
+.b{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-left: 126px;}
+.c{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-left: 189px;
+}
+.d{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-left: 252px;
+}
+.e{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-left: 315px;
+}
+.f{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-left: 378px;}
+.g{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-left: 441px;
+}
+.twoa{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 126px;
+margin-left: 126px}
+.twob{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 63px;
+margin-left: 63px}
+.twoc{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 126px;
+margin-left: 63px}
+.twod{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 189px;
+margin-left: 63px}
+.twoe{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 252px;
+margin-left: 63px}
+.twof{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 315px;
+margin-left: 63px}
+.twog{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 378px;
+margin-left: 63px}
+.twoh{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 441px;
+margin-left: 63px}
+.threea{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 63px;
+margin-left: 126px}
+.threeb{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 189px;
+margin-left: 126px}
+.threec{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 252px;
+margin-left: 126px}
+.threed{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 315px;
+margin-left: 126px}
+.threee{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 378px;
+margin-left: 126px}
+.threef{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 441px;
+margin-left: 126px}
+.foura{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 63px;
+margin-left: 189px}
+.fourb{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 126px;
+margin-left: 189px}
+.fourc{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 189px;
+margin-left: 189px}
+.fourd{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 252px;
+margin-left: 189px}
+.foure{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 315px;
+margin-left: 189px}
+.fourf{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 378px;
+margin-left: 189px}
+.fourg{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 441px;
+margin-left: 189px}
+.fivea{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 63px;
+margin-left: 252px}
+.fiveb{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 126px;
+margin-left: 252px}
+.fivec{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 189px;
+margin-left: 252px}
+.fived{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 252px;
+margin-left: 252px}
+.fivee{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 315px;
+margin-left: 252px}
+.fivef{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 378px;
+margin-left: 252px}
+.fiveg{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 441px;
+margin-left: 252px}
+.sixa{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 63px;
+margin-left: 315px}
+.sixb{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 126px;
+margin-left: 315px}
+.sixb{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 126px;
+margin-left: 315px}
+.sixc{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 189px;
+margin-left: 315px}
+.sixd{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 252px;
+margin-left: 315px}
+.sixe{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 315px;
+margin-left: 315px}
+.sixf{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 378px;
+margin-left: 315px}
+.sixg{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 441px;
+margin-left: 315px}
+.sevena{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 63px;
+margin-left: 378px}
+.sevenb{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 126px;
+margin-left: 378px}
+.sevenc{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 189px;
+margin-left: 378px}
+.sevend{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 252px;
+margin-left: 378px}
+.sevene{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 315px;
+margin-left: 378px}
+.sevenf{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 378px;
+margin-left: 378px}
+.seveng{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 441px;
+margin-left: 378px}
+.eighta{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 63px;
+margin-left: 441px}
+.eightb{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 126px;
+margin-left: 441px}
+.eightc{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 189px;
+margin-left: 441px}
+.eightd{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 252px;
+margin-left: 441px}
+.eighte{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 315px;
+margin-left: 441px}
+.eightf{
+height: 63px;
+width: 63px;
+background-color:rgb(47, 79, 79);
+position: absolute;
+margin-top: 378px;
+margin-left: 441px}
+.eightg{
+height: 63px;
+width: 63px;
+background-color: rgb(196, 236, 196);
+position: absolute;
+margin-top: 441px;
+margin-left: 441px}
+.dice{
+font-size: 50px;
+display: flex;
+justify-content: center;
+}
+/* .ludo{
+height: 506px;
+width: 506px;
+position: relative;
+background-color: white;
+margin-top: 200px;
+margin-left: 600px;
+}
+.red{
+height: 210px;
+width: 190px;
+position: absolute;
+background-color: red;
+}
+.green{
+height: 210px;
+width: 190px;
+position: absolute;
+background-color: green;
+bottom: 0;
+}
+.blue{
+height: 210px;
+width: 190px;
+position: absolute;
+background-color: blueviolet;
+right: 0;
+}
+.cyan{
+height: 210px;
+width: 190px;
+position: absolute;
+background-color: rgb(13, 131, 131);
+right: 0;
+bottom: 0;
+}
+.centre{
+height: 86px;
+width: 126px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.redone{
+height: 130px;
+width: 130px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.greenone{
+height: 130px;
+width: 130px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.blueone{
+height: 130px;
+width: 130px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.cyanone{
+height: 130px;
+width: 130px;
+position: absolute;
+background-color: black;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.circleone{
+height: 35px;
+width: 35px;
+position: absolute;
+border-radius: 50%;
+background-color: red;
+top: 15%;
+left: 15%;
+}
+.circletwo{
+height: 35px;
+width: 35px;
+position: absolute;
+border-radius: 50%;
+background-color: red;
+top: 15%;
+right: 15%;
+}
+.circlethree{
+height: 35px;
+width: 35px;
+position: absolute;
+border-radius: 50%;
+background-color: red;
+bottom: 15%;
+left: 15%;
+}
+.circlefour{
+height: 35px;
+width: 35px;
+position: absolute;
+border-radius: 50%;
+background-color: red;
+bottom: 15%;
+right: 15%;
+}
+.gcone{
+height: 35px;
+width: 35px;
+position: absolute;
+border-radius: 50%;
+background-color: green;
+top: 15%;
+left: 15%;
+}
+.gctwo{
+height: 35px;
+width: 35px;
+position: absolute;
+border-radius: 50%;
+background-color: green;
+top: 15%;
+right: 15%;
+}
+.gcthree{
+height: 35px;
+width: 35px;
+position: absolute;
+border-radius: 50%;
+background-color: green;
+bottom: 15%;
+left: 15%;
+}
+.gcfour{
+height: 35px;
+width: 35px;
+position: absolute;
+border-radius: 50%;
+background-color: green;
+bottom: 15%;
+right: 15%;
+}
+.bcone{
+height: 35px;
+width: 35px;
+position: absolute;
+border-radius: 50%;
+background-color: blueviolet;
+top: 15%;
+left: 15%;
+}
+.bctwo{
+height: 35px;
+width: 35px;
+position: absolute;
+border-radius: 50%;
+background-color: blueviolet;
+top: 15%;
+right: 15%;
+}
+.bcthree{
+height: 35px;
+width: 35px;
+position: absolute;
+border-radius: 50%;
+background-color: blueviolet;
+bottom: 15%;
+left: 15%;
+}
+.bcfour{
+height: 35px;
+width: 35px;
+position: absolute;
+border-radius: 50%;
+background-color: blueviolet;
+bottom: 15%;
+right: 15%;
+}
+.ccone{
+height: 35px;
+width: 35px;
+position: absolute;
+border-radius: 50%;
+background-color: rgb(13, 131, 131);
+top: 15%;
+left: 15%;
+}
+.cctwo{
+height: 35px;
+width: 35px;
+position: absolute;
+border-radius: 50%;
+background-color: rgb(13, 131, 131);
+top: 15%;
+right: 15%;
+}
+.ccthree{
+height: 35px;
+width: 35px;
+position: absolute;
+border-radius: 50%;
+background-color: rgb(13, 131, 131);
+bottom: 15%;
+left: 15%;
+}
+.ccfour{
+height: 35px;
+width: 35px;
+position: absolute;
+border-radius: 50%;
+background-color: rgb(13, 131, 131);
+bottom: 15%;
+right: 15%;
+} */
+/* .lineone{
+height: 28px;
+width: 21px;
+position: absolute;
+background-color: black;
+top: 53%;
+}
+.linetwo{
+height: 28px;
+width: 21px;
+position: absolute;
+background-color: gold;
+top: 47%;
+}
+.linethree{
+height: 28px;
+width: 21px;
+position: absolute;
+background-color: black;
+top: 42%;
+
+}
+ */
